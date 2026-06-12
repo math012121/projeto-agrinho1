@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Conectando Campo e Cidade</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #81c784;
+            --text-color: #333;
+            --bg-color: #f1f8e9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--white);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--white);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .feature-box {
+            background: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Projeto Agrinho</h1>
+        <p>Semeando educação, colhendo cidadania</p>
+    </header>
+
+    <nav>
+        <a href="#o-que-e">O que é</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#importancia">Importância</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="o-que-e">
+            <h2>O que é o Agrinho?</h2>
+            <p>O <strong>Agrinho</strong> é o maior programa de responsabilidade social do Sistema FAEP/SENAR-PR, desenvolvido em parceria com o governo estadual e prefeituras. Criado com o objetivo de levar informações sobre cidadania, saúde, preservação ambiental e segurança às crianças das escolas públicas e particulares, o projeto une a realidade do campo com a rotina da cidade.</p>
+            <p>A figura central do programa é o personagem "Agrinho", um menino que vive no campo e compartilha suas descobertas sobre a natureza, a produção de alimentos e o respeito ao meio ambiente com seus amigos.</p>
+        </section>
+
+        <section id="como-funciona">
+            <h2>Como Funciona o Programa?</h2>
+            <p>O programa opera de forma contínua durante o ano letivo e se baseia em três pilares principais:</p>
+            
+            <div class="features">
+                <div class="feature-box">
+                    <h3>1. Material Didático</h3>
+                    <p>Professores e alunos recebem materiais educativos exclusivos (livros, revistas e guias) que abordam temas transversais de forma lúdica e adaptada para cada faixa etária.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>2. Trabalho em Aula</h3>
+                    <p>Os professores utilizam esse material para desenvolver projetos práticos e debates com os alunos, integrando os temas do campo às disciplinas tradicionais como Ciências, Geografia e Português.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>3. Concurso Anual</h3>
+                    <p>No final do ano, é realizado o tradicional Concurso Agrinho. Alunos e professores enviam seus trabalhos (desenhos, redações e relatos de experiências) para competir em diversas categorias, com premiações que incentivam o esforço de todos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="importancia">
+            <h2>Por que o Agrinho é Importante?</h2>
+            <p>O Agrinho vai além da sala de aula tradicional. Ele incentiva o pensamento crítico dos jovens e mostra o papel fundamental do setor agropecuário na economia e no sustento do país. Ao ensinar práticas sustentáveis desde cedo, o programa ajuda a formar cidadãos mais conscientes e responsáveis com o futuro do planeta.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Site Informativo sobre o Projeto Agrinho. Desenvolvido para fins educativos.</p>
+    </footer>
+
+</body>
+</html>
